@@ -1,53 +1,27 @@
-.homestay-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.popup-open {
+    position: sticky;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .homestay-image {
-    height: 400px;
-    width: 100%;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiatoday.in%2Flifestyle%2Ftravel%2Fstory%2Fhomestays-homestay-vacation-homestay-holiday-india-homestays-258930-2015-06-22&psig=AOvVaw3IbUcpc5_e4a-qvFhk01G-&ust=1682850431224000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDRrMPwzv4CFQAAAAAdAAAAABAE");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    filter: none;
+  }
+
+  .ckm-btn {
+      padding: auto;
+      flex: auto;
   }
   
-  .homestay-details {
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  
-  .homestay-booking {
-    text-align: center;
-  }
-  
-  .homestay-booking form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .homestay-booking label {
-    margin-right: 10px;
-  }
-  
-  .homestay-booking input {
-    margin-bottom: 10px;
-  }
-  
-  .homestay-booking button {
-    background-color: #008CBA;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .homestay-booking button:hover {
-    background-color: #005580;
-  }
-  
+  .skl-btn {
+    padding: auto;
+    flex: auto;
+}

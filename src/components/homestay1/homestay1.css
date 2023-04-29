@@ -1,0 +1,53 @@
+.homestay1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .homestay1-image {
+    height: 400px;
+    width: 100%;
+    background-image: url('/src/components/images/back.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  
+  .homestay1-details {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .homestay1-booking {
+    text-align: center;
+  }
+  
+  .homestay1-booking form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .homestay1-booking label {
+    margin-right: 10px;
+  }
+  
+  .homestay1-booking input {
+    margin-bottom: 10px;
+  }
+  
+  .homestay1-booking button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .homestay1-booking button:hover {
+    background-color: #005580;
+  }
+  
